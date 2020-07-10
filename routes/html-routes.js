@@ -1,19 +1,23 @@
 const router = require("express").Router();
-const Transaction = require("../models/workout.js");
+// const Transaction = require("../models/workout.js");
+var path = require("path");
 
 //Setup routes to 
 module.exports = function(app){
 
     app.get('/', (req, res) => {
-        res.send('exercise');
+
+        res.sendFile(path.join(__dirname, "../public/index.html"));
       });
+
     app.get('/exercise', (req, res) => {
-        res.send('exercise');
+
+        res.sendFile(path.join(__dirname, "../public/exercise.html"));
       });
   
     app.get("/stats", function(req,res){
         
-        res.send('stats');
+        res.sendFile(path.join(__dirname, "../public/exercise.html"));
         
     });
   
