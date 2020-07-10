@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Transaction = require("../models/workout.js");
+const Transaction = require(("./models"));
 
 router.get("/api/workouts", ({ body }, res) => {
     Transaction.create(body)
@@ -23,7 +23,7 @@ router.get("/api/workouts", ({ body }, res) => {
   
   router.get("/api/transaction/range", (req, res) => {
     Transaction.find({})
-      .sort({ date: -1 })
+      
       .then(dbTransaction => {
         res.json(dbTransaction);
       })
