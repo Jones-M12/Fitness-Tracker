@@ -41,9 +41,22 @@ const workoutSchema = new Schema(
                 type: Number,
                 
             },
-    }]
+        }]
 
+    },
+    
+    {// Include virtuals
+        toJSON: {virtuals: true}
+    }
   
+);
+
+//Virtual duraion property
+
+workoutSchema.virtual("totalDuration").get(function(){
+    return this.exercises.reduce(function(total, session){
+        return total + session.duration;
+    }, 0);
 });
 
 const Workout = mongoose.model("Workout", workoutSchema);
