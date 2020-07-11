@@ -1,6 +1,6 @@
 const router = require("express").Router();
 // const Transaction = require("../models/workout.js");
-const model = require(("./models"));
+
 var path = require("path");
 
 //Setup routes to 

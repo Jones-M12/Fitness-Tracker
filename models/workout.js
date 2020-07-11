@@ -7,7 +7,7 @@ const workoutSchema = new Schema(
             type: Date,
             default: Date.now
         },
-        session: [{
+        exercises: [{
 
             type: {
                 type: String,
