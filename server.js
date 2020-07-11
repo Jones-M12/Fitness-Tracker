@@ -21,6 +21,14 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useFindAndModify: false
 });
 
+//If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+
+//Connect to the Mongo DB
+mongoose.connect(MONGODB_URI)
+
+
+
 // routes
 app.use(require("./routes/html-routes.js"));
 app.use(require("./routes/api.js"));
