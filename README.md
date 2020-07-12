@@ -2,9 +2,9 @@
 
 [![Generic badge](https://img.shields.io/badge/VERSION-1.1.0-GREEN.svg)](https://shields.io/)
 
-[Repo: Notes Application](https://github.com/Jones-M12/Notes-Application-Jones)
+[Repo: Fitness Tracker](https://github.com/Jones-M12/Fitness-Tracker)
 
-[Deployed Site: Notes Application Jones](https://notes-application-jones.herokuapp.com/)
+[Deployed Site: Fitness Tracker Jones](https://fitness-tracker-jones.herokuapp.com/)
 
 
 ## Overview
