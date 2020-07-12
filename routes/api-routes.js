@@ -41,13 +41,13 @@ db.places.update({"country": "Morocco"}, {$push: {"majorcities": "Agadir"}})
   });
   
   router.get("/api/workouts/range", (req, res) => {
+    db.workout.find().sort({day:1}).limit(7)
     // db.workout.find().limit(7)
-    db.workout.find( {}, { exercises: { $slice: [ 0, 7 ]} } )
+    // db.workout.find( {}, { exercises: { $slice: [ 0, 7 ]} } )
     // db.workout.find( {}, { exercises: { $limit: 7 } } )
     // db.workout.aggregate([
     //   { $limit : 7 }
   //  ])
-      
       .then(dbTransaction => {
         res.json(dbTransaction);
       })
