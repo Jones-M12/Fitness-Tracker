@@ -16,10 +16,20 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
-  useNewUrlParser: true,
-  useFindAndModify: false
-});
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
+//   useNewUrlParser: true,
+//   useFindAndModify: false
+// });
+
+//Add code to setup AtlasDB
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  });
 
 //If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
 // var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
