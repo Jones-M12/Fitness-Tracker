@@ -23,6 +23,8 @@ SO THAT I can meet weight loss goals.
 
 Created the backend of Fitness Tracker using Mongo and deploy on heroku with mLabs. Implemeted with a Mongoose schema and handle routes and Express.
 
+![Home](./public/images/fitnesstracker.png)
+
 
 ## Contact Information
 
