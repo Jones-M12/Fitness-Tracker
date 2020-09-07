@@ -21,9 +21,29 @@ SO THAT I can meet weight loss goals.
 
 ## Development 
 
-Created the backend of Fitness Tracker using Mongo and deploy on heroku with mLabs. Implemeted with a Mongoose schema and handle routes and Express.
+Created the backend of Fitness Tracker using Mongo and deploy on heroku with Atlas. Implemeted with a Mongoose schema and handle routes and Express.
+
+* Main Home Screen
 
 ![Home](./public/images/fitnesstracker.png)
+
+Demo of how application works:
+
+* Click New Workout to add a workout
+
+* Click Add Exercise to add to the list
+
+* Then Click Complete to return to the main page
+
+* Click Continue Workout to add on to an exercise that has already been added
+
+* Click Add Exercise to add to the list
+
+* Then Click Complete to return to the main page
+
+* Click Fitness Tracker Dashboard to exercise tracking trends
+
+![Home](./public/images/FitnessTracker.gif)
 
 
 ## Contact Information
