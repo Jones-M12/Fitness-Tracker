@@ -1,4 +1,4 @@
-# Fiteness Tracker
+# Fitness Tracker
 
 [![Generic badge](https://img.shields.io/badge/VERSION-1.1.0-GREEN.svg)](https://shields.io/)
 
@@ -9,7 +9,7 @@
 
 ## Overview
 
-A dynamic fitness application built to support indiviuals that want to support for track fitness excercises.
+A dynamic fitness application built to support individuals that want to support for track fitness exercises.
 
 ## User Story
 
@@ -21,7 +21,7 @@ SO THAT I can meet weight loss goals.
 
 ## Development 
 
-Created the backend of Fitness Tracker using Mongo and deploy on heroku with Atlas. Implemeted with a Mongoose schema and handle routes and Express.
+Created the backend of a Fitness Tracker using Mongo and deployed on heroku with Atlas. Implemeted with a Mongoose schema and handle routes and Express.
 
 * Main Home Screen
 
@@ -41,18 +41,15 @@ Demo of how application works:
 
 * Then Click Complete to return to the main page
 
-* Click Fitness Tracker Dashboard to exercise tracking trends
+* Click Fitness Tracker Dashboard to see exercise tracking trends
 
 ![Home](./public/images/FitnessTracker.gif)
 
 
 ## Contact Information
 
-* Github: [Jones-M12](https://github.com/Jones-M12) 
+* GitHub: [Jones-M12](https://github.com/Jones-M12) 
 
 * Email: malesharj@gmail.com 
 
-* LindedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
-
-
-
+* LinkedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
